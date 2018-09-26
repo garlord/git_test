@@ -1,8 +1,6 @@
 import datetime
 from scipy import optimize 
 
-
-
 def secant_method(tol, f, x0):
     """
     Solve for x where f(x)=0, given starting x0 and tolerance.
